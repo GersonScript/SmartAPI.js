@@ -1,0 +1,30 @@
+{
+  "name": "smartapi",
+  "version": "1.0.0",
+  "description": "A complete library for automatic API generation with fine-grained control, validation, and documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GersonScript/SmartAPI.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GersonScript/SmartAPI.js/issues"
+  },
+  "homepage": "https://github.com/GersonScript/SmartAPI.js#readme",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "express": "^4.21.2",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
